@@ -45,7 +45,7 @@ if($_SESSION['autenticado'] == 'LOGADO'){
     
     if($_SESSION['autenticado'] == "SIM"){
       echo '<div class="alert alert-success" role="alert">
-      Usuario autenticado com sucesso! aguarde alguns segundos.
+      Usuário autenticado com sucesso! aguarde alguns instantes...
     </div>';
     $_SESSION['autenticado'] = "LOGADO";
     header("Refresh: 5; url=areadocliente.php");
